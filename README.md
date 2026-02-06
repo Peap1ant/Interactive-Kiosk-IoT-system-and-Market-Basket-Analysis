@@ -62,7 +62,7 @@
  - 라즈베리 파이에서 들어온 주문을 알려줌
  - 원 클릭으로 이용 내역(로그 수집)
 
-라즈베리 파이에서 전송한 주문 내역을 GUI 알림과 소리를 통해 알려준다.
+라즈베리 파이에서 전송한 주문 내역을 Wifi로 전송받아 GUI 알림과 소리를 통해 알려준다.
 
 해당 파일의 경우 1번과 비슷하게 버튼을 클릭해 포스기와 동일한 Wifi에 연결된 모든 라즈베리 파이의 데이터를 전송받는다.
 
@@ -106,8 +106,8 @@ Python의 CustomTkinter 라이브러리을 이용해 GUI 제공해 모던한 느
 | 품목 | 수량 | 가격(KRW) | 링크 |
 | :--- | :--- | :--- | :--- |
 | **멀티 충전기** | 홈플래닛 접지 90W 6포트 PD PPS 초고속 멀티 충전기 | 28,290 * 3(15대 기준) = 86,700 | [링크](https://www.coupang.com/vp/products/8151231008?itemId=23197846039&vendorItemId=90230435264&src=1032034&spec=10305197&addtag=400&ctag=8151231008&lptag=I23197846039&itime=20260206025530&pageType=PRODUCT&pageValue=8151231008&wPcid=17703132477420421552298&wRef=prod.danawa.com&wTime=20260206025530&redirect=landing&mcid=30b4487788fa41eca7ba610844fa053d) |
-| **충전용 케이블(A to C)** | 삼성 정품 USB to C타입 갤럭시 고속 충전케이블 1.5m PD 2PCS | 6,700 * 10(여분 포함) = 67,000 | [링크](https://smartstore.naver.com/mdti/products/2185392329) |
-| **충전용 케이블(C to C)** | 밸류엠 60W CtoC 초고속 충전 케이블 5개입 | 8,900 * 4(여분 포함) = 35,600 | [링크](https://www.coupang.com/vp/products/6475284456?itemId=14150596124&vendorItemId=81397124669&src=1032034&spec=10305197&addtag=400&ctag=6475284456&lptag=I14150596124&itime=20260206030204&pageType=PRODUCT&pageValue=6475284456&wPcid=17703132477420421552298&wRef=prod.danawa.com&wTime=20260206030204&redirect=landing&mcid=c48d2dd842b5469dada7b33af79b9d92) |
+| **충전용 케이블(A to C)** | 삼성 정품 USB to C타입 갤럭시 고속 충전케이블 1.5m PD 2PCS | 6,700 * 10(여분 포함, 20개 구매) = 67,000 | [링크](https://smartstore.naver.com/mdti/products/2185392329) |
+| **충전용 케이블(C to C)** | 밸류엠 60W CtoC 초고속 충전 케이블 5개입 | 8,900 * 4(여분 포함, 20개 구매) = 35,600 | [링크](https://www.coupang.com/vp/products/6475284456?itemId=14150596124&vendorItemId=81397124669&src=1032034&spec=10305197&addtag=400&ctag=6475284456&lptag=I14150596124&itime=20260206030204&pageType=PRODUCT&pageValue=6475284456&wPcid=17703132477420421552298&wRef=prod.danawa.com&wTime=20260206030204&redirect=landing&mcid=c48d2dd842b5469dada7b33af79b9d92) |
 | **합계** | | **129,000원** | |
 
 총 예산(15대 기준 총 가격)
